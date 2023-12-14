@@ -1,0 +1,96 @@
+Credits
+
+CSC-10026 Coursework
+Student ID No. 21011025
+
+My Keele Interaction Theme: 
+- A robot has been sent to space to find elements around space which
+can be collected and taken to Earth to help build more electric cars.
+- The user can control the robot by holding down and moving the mouse. 
+- The robot must arrive back to Earth in time for the 
+BCS Human-Computer Interaction conference at Keele University.
+
+##############################################################
+Media
+##############################################################
+Featuring:
+
+**Self-made sprite image
+Planets, elements, robot, and icons made using Paint.NET
+
+** Generative Art using noise
+Perlin Noise is used to procedurally generate a space background
+
+**Sounds and sound effects
+Royalty-free Rocket Thruster Sound from mixkit.co, modified using Audacity
+Royalty-free Collision Sound Effect from mixkit.co
+Royalty-free Item Collect Sound Effect from fesliyanstudios.com
+
+
+##############################################################
+Animation
+##############################################################
+Scene 1: Introduction and How to Play
+Scene 2: Space Game
+Scene 3: Scrolling Credits
+
+Featuring:
+* Animated analog clock timer
+* Planet elements that animate towards the player
+* Black hole animation and transition when player is within range
+* Transition to credits with a fade to black animation 
+
+** Simulated Physics
+Player animation through space using simulated physics (forces, acceleration)
+
+** Parallax Effect
+Animated scrolling backgrounds (stars, nebula and foreground) at
+different rates to create a parallax effect
+
+** Particle System
+Animated rocket thrusters using a particle system
+
+** Animated spritesheet
+10-pose spritesheet to animate the asteroid collision impact
+
+##############################################################
+Programming:
+##############################################################
+** Sound
+- Uses the processing.sound library to enable audio output
+- Uses the amp function to control the sound of the thrusters
+based on the mouse cursor's position, and to fade in & out the
+sound file as the user clicks the mouse button.
+
+**Perlin Noise
+- Uses 2D Perlin Noise functions to generate the space nebula
+background in colour.
+- Uses additional 2D Perlin Noise as a mask to create distinct
+areas of darkness in the space image.
+
+** Transforms
+Uses Translate and Rotate functions to display an analog clock timer.
+
+** Bezier curves & trigonometric functions
+Uses Bezier curves and sin and cos functions to create
+and animate the black holes.
+
+**Random function
+- Uses the Random function to generate the position of planets, stars,
+and black holes.
+- Uses the Random function in creating the thruster particles
+
+** Graphical primitives
+- Uses ellipse function to draw the stars and thruster particles
+- Uses ellipse, line and arc functions to draw the analog clock
+
+**Modular arithmetic
+Uses modular arithmetric to create infinite scrolling star field
+
+**Text function
+Uses the text function to display introduction, on screen information and credits
+Uses text to display the current distance of planets to the player
+
+**Arrays
+- Uses many ArrayLists to store instances of Planets, Asteroids,
+Black Holes, Particle Systems, so that they can be drawn on the screen
