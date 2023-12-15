@@ -1,9 +1,8 @@
 # 2D Space Game
 
-<img src='animation.gif' alt='Users can interact with this project using their mouse' width='400' />
+<img src='screenshot.png' alt='Screenshot taken from the Game' width='400' />
 
-_Demonstration of the Game_
-
+_Screenshot taken from the Game_
 
 ## About The Game
 
@@ -21,3 +20,8 @@ This game is set in space, where the robot must collect elements from different 
 * A parallax effect was achieved by animating backgrounds at different rates (stars, nebula and foreground).
 
 * Animated rocket thrusters were made using a particle system.
+
+<br>
+<img src='animation.gif' alt='Demonstration of the Game' width='400' />
+
+_Demonstration of the Game_
